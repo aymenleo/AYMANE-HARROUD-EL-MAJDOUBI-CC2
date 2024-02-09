@@ -1,0 +1,95 @@
+h1 {
+ text-align: center;
+ color: rgb(222, 16, 16);
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+section h2 {
+    color: green;
+
+} 
+section  {
+    color:blueviolet
+}
+
+
+div   {
+    width: 300px;
+    height:300px;
+    background-color: blue;
+    
+
+}
+  
+
+.translated-div {
+    
+    transform: translate(100px);
+    transform: translate(100px);
+    transform: rotate(40deg);
+
+  }
+  
+  .nav {
+    background-color: grey;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.element_div {
+    display: flex;
+}
+.abt{
+    background-color: purple;
+    height: 50px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about {
+    padding-right: 830px;
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+.links{
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+}
+.link, #link {
+    text-decoration: none;
+    color: white;
+
+}
+.link:hover{
+    color: blue;
+}
+#boite{
+  background-color: red;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  animation: redBox;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes redBox{
+  0%{
+      transform: translateX(0px);
+  }
+  50%{
+      transform: translateX(400px);
+  }
+  100%{
+      transform: translateX(0px);
+  }
+}
+  
